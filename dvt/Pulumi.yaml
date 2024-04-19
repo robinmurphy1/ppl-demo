@@ -4,7 +4,9 @@ runtime:
   options:
     virtualenv: venv
 description: A minimal AWS Python Pulumi program
+main: ./s3-auto-bucket/__main__.py
 config:
   pulumi:tags:
     value:
       pulumi:template: aws-python
+
